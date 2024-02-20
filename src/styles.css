@@ -1,4 +1,8 @@
-/* You can add global styles to this file, and also import other style files */
+:root{
+  --primary: #21446f;
+  --blue: #214570;
+  --green: #0d8f75;
+}
 @font-face {
   font-family: "ElMessiri";
   src: url(./assets/fonts/ElMessiri-Regular.ttf);
@@ -25,7 +29,9 @@ body {
 }
 body {
   margin: 0;
-  font-family: "ElMessiri", sans-serif;
+  font-family: "ElMessiri", serif;
   direction: rtl;
   text-align: right;
+  font-weight: 400;
+  font-size: 1rem;
 }

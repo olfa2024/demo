@@ -4,10 +4,10 @@ import { MatIconModule } from '@angular/material/icon'; // Import MatIconModule
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { NavbarComponent } from './navbar/navbar.component';
+import { NavbarComponent } from './common/navbar/navbar.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AccueilComponent } from './accueil/accueil.component';
-import { FooterComponent } from 'src/common/footer/footer.component';;
+import { FooterComponent } from './common/footer/footer.component';
 import { InscriptionComponent } from './inscription/inscription.component';
 import { RegisterComponent } from './register/register.component';
 import { HikamComponent } from './hikam/hikam.component';
@@ -33,15 +33,15 @@ import { DoaaComponent } from './doaa/doaa.component';
     ConseilComponent,
     NidamComponent,
     WasfaComponent,
-    DoaaComponent
+    DoaaComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MatIconModule,
-  
-  
+
+
   ],
   providers: [],
   bootstrap: [AppComponent]

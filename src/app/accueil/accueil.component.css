@@ -1,24 +1,9 @@
-nav {
-  background-color: rgb(242 242 242);
-  height: 60px;
-}
 
 #inscrit {
   color: #214570 !important;
   font-weight: var(--bs-nav-link-font-weight);
   font-size: 15px;
   margin-top: 15px;
-}
-
-#cart {
-  margin-top: 10px;
-  margin-left: 100px;
-}
-
-header .navbar {
-  height: 75px;
-  transition: 0.3s;
-  float: right;
 }
 
 .bg-white {
@@ -36,35 +21,6 @@ header .navbar-light .navbar-nav .nav-link {
   font-size: 1.2rem;
   padding: 0.7rem 1rem;
   position: relative;
-  transition: 0.3s;
-}
-
-.navbar-brand img {
-  margin-top: -5px;
-  width: 150px;
-  height: auto;
-  float: right;
-  position: relative;
-  margin-left: 1200px;
-
-  align-items: center;
-  background: #fff;
-  border-radius: 0 0 30px 30px;
-  box-shadow: 0 3px 5px hsla(0, 0%, 67%, 0.16);
-  display: flex;
-  height: 152px;
-  inset-block-start: 0;
-  inset-inline-start: 0;
-  justify-content: center;
-  padding: 15px 20px 30px;
-  position: absolute;
-  transition: 0.3s;
-  width: 141px;
-  z-index: 999;
-}
-
-header .navbar {
-  height: 75px;
   transition: 0.3s;
 }
 
