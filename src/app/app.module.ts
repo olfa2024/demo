@@ -7,7 +7,7 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AccueilComponent } from './accueil/accueil.component';
-import { FooterComponent } from './footer/footer.component';
+import { FooterComponent } from 'src/common/footer/footer.component';;
 import { InscriptionComponent } from './inscription/inscription.component';
 import { RegisterComponent } from './register/register.component';
 import { HikamComponent } from './hikam/hikam.component';
