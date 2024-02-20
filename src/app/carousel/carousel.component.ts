@@ -13,7 +13,7 @@ export class CarouselComponent {
     margin: 10,
     autoplay:true,
     responsiveClass: true,
-    navText: ['Previous', 'Next'],
+    navText: ["<div class='nav-button owl-prev'>‹</div>", "<div class='nav-button owl-next'>›</div>"],
     rtl:true,
     responsive: {
       0: {
