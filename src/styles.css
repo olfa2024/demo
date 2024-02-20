@@ -26,4 +26,6 @@ body {
 body {
   margin: 0;
   font-family: "ElMessiri", sans-serif;
+  direction: rtl;
+  text-align: right;
 }
