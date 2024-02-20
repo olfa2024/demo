@@ -17,7 +17,8 @@ import { ConseilComponent } from './conseil/conseil.component';
 import { NidamComponent } from './nidam/nidam.component';
 import { WasfaComponent } from './wasfa/wasfa.component';
 import { DoaaComponent } from './doaa/doaa.component';
-
+import { CarouselComponent } from './carousel/carousel.component';
+import { CarouselModule } from 'ngx-owl-carousel-o';
 
 @NgModule({
   declarations: [
@@ -34,14 +35,14 @@ import { DoaaComponent } from './doaa/doaa.component';
     NidamComponent,
     WasfaComponent,
     DoaaComponent,
+    CarouselComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MatIconModule,
-
-
+    CarouselModule
   ],
   providers: [],
   bootstrap: [AppComponent]
