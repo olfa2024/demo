@@ -17,8 +17,9 @@ import { ConseilComponent } from './conseil/conseil.component';
 import { NidamComponent } from './nidam/nidam.component';
 import { WasfaComponent } from './wasfa/wasfa.component';
 import { DoaaComponent } from './doaa/doaa.component';
-import { CarouselComponent } from './carousel/carousel.component';
+import { CarouselComponent } from './components/carousel/carousel.component';
 import { CarouselModule } from 'ngx-owl-carousel-o';
+import { AnimatedTextComponent } from './components/animated-text/animated-text.component';
 
 @NgModule({
   declarations: [
@@ -36,6 +37,7 @@ import { CarouselModule } from 'ngx-owl-carousel-o';
     WasfaComponent,
     DoaaComponent,
     CarouselComponent,
+    AnimatedTextComponent,
   ],
   imports: [
     BrowserModule,
