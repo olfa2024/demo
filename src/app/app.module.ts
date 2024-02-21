@@ -4,10 +4,10 @@ import { MatIconModule } from '@angular/material/icon'; // Import MatIconModule
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { NavbarComponent } from './navbar/navbar.component';
+import { NavbarComponent } from './common/navbar/navbar.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AccueilComponent } from './accueil/accueil.component';
-import { FooterComponent } from './footer/footer.component';
+import { FooterComponent } from './common/footer/footer.component';
 import { InscriptionComponent } from './inscription/inscription.component';
 import { RegisterComponent } from './register/register.component';
 import { HikamComponent } from './hikam/hikam.component';
@@ -17,7 +17,8 @@ import { ConseilComponent } from './conseil/conseil.component';
 import { NidamComponent } from './nidam/nidam.component';
 import { WasfaComponent } from './wasfa/wasfa.component';
 import { DoaaComponent } from './doaa/doaa.component';
-
+import { CarouselComponent } from './carousel/carousel.component';
+import { CarouselModule } from 'ngx-owl-carousel-o';
 
 @NgModule({
   declarations: [
@@ -33,15 +34,15 @@ import { DoaaComponent } from './doaa/doaa.component';
     ConseilComponent,
     NidamComponent,
     WasfaComponent,
-    DoaaComponent
+    DoaaComponent,
+    CarouselComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MatIconModule,
-  
-  
+    CarouselModule
   ],
   providers: [],
   bootstrap: [AppComponent]

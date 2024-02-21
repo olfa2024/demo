@@ -1,0 +1,84 @@
+<header>
+  <div class="container">
+    <nav class="navbar navbar-expand-lg bg-light bg-white py-3">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img
+            loading="lazy"
+            src="/assets/imgs/logo.webp"
+            alt="منصة "
+            width="105px"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 px-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">الصفحة الرئيسية</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" routerLink="doaa">أدعية دينية</a>
+            </li>
+            <li class="nav-item">
+              <a routerLink="nidam" class="nav-link">نظام غذائي صحي</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" aria-current="page" routerLink="wasfa"
+                >وصفات رمضانية</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link amiri" routerLink="mawakit">إمساكية رمضان</a>
+            </li>
+            <li class="nav-item">
+              <a routerLink="nidam" class="nav-link">فرص التبرع</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+              نصائح
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+          </ul>
+          <div class="d-flex align-items-center">
+            <a class="nav-link cart_count" href="/cart">
+              <img
+                class="icon"
+                src="/assets/imgs/icon-shopping_cart.svg"
+                alt="سلة تبرعاتك"
+              />
+            </a>
+            <a class="nav-link" routerLink="register">
+              <img
+                class="icon"
+                src="/assets/imgs/icon-profile.svg"
+                alt="تسجيل الدخول"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+</header>
