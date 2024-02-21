@@ -29,7 +29,7 @@ body {
 }
 body {
   margin: 0;
-  font-family: "ElMessiri", serif;
+  font-family: "ElMessiri", serif !important;
   direction: rtl;
   text-align: right;
   font-weight: 400;
@@ -82,4 +82,12 @@ body {
   height: 3px;
   margin: 5px 7px;
   background: #279b84;
+}
+
+.section_header{
+  text-align: center;
+  color: var(--primary);
+  font-weight: 700;
+  font-family: "ElMessiri", serif !important;
+  font-size: 2rem !important;
 }

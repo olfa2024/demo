@@ -20,6 +20,7 @@ import { DoaaComponent } from './doaa/doaa.component';
 import { CarouselComponent } from './components/carousel/carousel.component';
 import { CarouselModule } from 'ngx-owl-carousel-o';
 import { AnimatedTextComponent } from './components/animated-text/animated-text.component';
+import { BenevolatComponent } from './components/benevolat/benevolat.component';
 
 @NgModule({
   declarations: [
@@ -38,6 +39,7 @@ import { AnimatedTextComponent } from './components/animated-text/animated-text.
     DoaaComponent,
     CarouselComponent,
     AnimatedTextComponent,
+    BenevolatComponent,
   ],
   imports: [
     BrowserModule,

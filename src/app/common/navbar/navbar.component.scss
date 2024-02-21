@@ -1,7 +1,7 @@
 nav {
   height: 75px;
 
-  ul .nav-link{
+  ul .nav-link {
     color: var(--primary) !important;
     font-size: 1rem;
     padding: 0.5rem 0.75rem;
@@ -11,9 +11,14 @@ nav {
   }
 }
 
+@media screen and (max-width: 1199px) {
+  nav ul .nav-link {
+    padding: 0.5rem 0.25rem;
+  }
+}
 
-@media screen and (max-width:1199px) {
- nav ul .nav-link{
-  padding: 0.5rem 0.25rem;
- }
+@media screen and (max-width: 992px) {
+  .navbar-brand img{
+    max-width: 95px;
+  }
 }
