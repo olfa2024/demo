@@ -1,9 +1,16 @@
 nav {
-  height: 75px;
+  height: 80px;
+  .navbar-toggler {
+    margin-left: 1rem;
+    &:hover, &:focus{
+      outline: none;
+      box-shadow: none;
+    }
+  }
 
   ul .nav-link {
-    color: var(--primary) !important;
-    font-size: 1rem;
+    color: var(--primary);
+    font-size: 1.1rem;
     padding: 0.5rem 0.75rem;
     transition: 0.3s;
     font-weight: 500;
@@ -18,7 +25,16 @@ nav {
 }
 
 @media screen and (max-width: 992px) {
-  .navbar-brand img{
+  .navbar-brand img {
     max-width: 95px;
+  }
+  #navbarSupportedContent {
+    background-color: var(--blue);
+    z-index: 5000;
+    padding: 25px;
+
+    .nav-link {
+      color: #fff;
+    }
   }
 }

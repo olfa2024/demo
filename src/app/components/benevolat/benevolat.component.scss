@@ -11,3 +11,11 @@
     object-fit: cover;
   }
 }
+
+@media screen and (max-width:992px) {
+  #benevolat_wrapper{
+    img{
+      height: 200px;
+    }
+  }
+}

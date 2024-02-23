@@ -36,16 +36,31 @@ body {
   font-size: 1rem;
 }
 
-.owl-theme .owl-nav {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 100%;
+main{
+  min-height: 86vh;
   display: flex;
-  justify-content: space-between;
-  padding: 0 20px;
+  flex-direction: column;
+  justify-content: center;
 }
 
+h1, h2, h3, h4, h5, h6{
+  font-family: "ElMessiri", serif !important;
+  font-weight: 700;
+}
+
+.owl-theme .owl-nav .owl-prev, .owl-theme .owl-nav .owl-next{
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  z-index: 2;
+}
+.owl-theme .owl-nav .owl-prev{
+  right: 5px;
+}
+.owl-theme .owl-nav .owl-next{
+  left: 5px;
+}
 .owl-theme .owl-nav .owl-prev,
 .owl-theme .owl-nav .owl-next,
 .owl-theme .owl-nav .owl-prev:hover,
@@ -87,7 +102,7 @@ body {
 .section_header{
   text-align: center;
   color: var(--primary);
-  font-weight: 700;
+  font-weight: 700 !important;
   font-family: "ElMessiri", serif !important;
-  font-size: 2rem !important;
+  font-size: 2.5rem !important;
 }
