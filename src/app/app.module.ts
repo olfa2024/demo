@@ -23,6 +23,7 @@ import { AnimatedTextComponent } from './components/animated-text/animated-text.
 import { BenevolatComponent } from './components/benevolat/benevolat.component';
 import { HealthComponent } from './components/health/health.component';
 import { MealsComponent } from './components/meals/meals.component';
+import { HeroComponent } from './components/hero/hero.component';
 
 @NgModule({
   declarations: [
@@ -44,6 +45,7 @@ import { MealsComponent } from './components/meals/meals.component';
     BenevolatComponent,
     HealthComponent,
     MealsComponent,
+    HeroComponent,
   ],
   imports: [
     BrowserModule,
