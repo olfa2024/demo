@@ -9,7 +9,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AccueilComponent } from './accueil/accueil.component';
 import { FooterComponent } from './common/footer/footer.component';
 import { InscriptionComponent } from './inscription/inscription.component';
-import { RegisterComponent } from './register/register.component';
+import { LoginComponent } from './login/login.component';
 import { HikamComponent } from './hikam/hikam.component';
 import { MawakitComponent } from './mawakit/mawakit.component';
 import { RecetteComponent } from './recette/recette.component';
@@ -21,6 +21,9 @@ import { CarouselComponent } from './components/carousel/carousel.component';
 import { CarouselModule } from 'ngx-owl-carousel-o';
 import { AnimatedTextComponent } from './components/animated-text/animated-text.component';
 import { BenevolatComponent } from './components/benevolat/benevolat.component';
+import { HealthComponent } from './components/health/health.component';
+import { MealsComponent } from './components/meals/meals.component';
+import { HeroComponent } from './components/hero/hero.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +32,7 @@ import { BenevolatComponent } from './components/benevolat/benevolat.component';
     AccueilComponent,
     FooterComponent,
     InscriptionComponent,
-    RegisterComponent,
+    LoginComponent,
     HikamComponent,
     MawakitComponent,
     RecetteComponent,
@@ -40,6 +43,9 @@ import { BenevolatComponent } from './components/benevolat/benevolat.component';
     CarouselComponent,
     AnimatedTextComponent,
     BenevolatComponent,
+    HealthComponent,
+    MealsComponent,
+    HeroComponent,
   ],
   imports: [
     BrowserModule,

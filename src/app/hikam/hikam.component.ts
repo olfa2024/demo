@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./hikam.component.css']
 })
 export class HikamComponent {
-
+  
 }
